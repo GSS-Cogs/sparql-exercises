@@ -1,0 +1,38 @@
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+SELECT ?dataSet (COUNT(DISTINCT ?obs) as ?numObs)
+WHERE {
+
+  VALUES (?dataSet) {
+    (<http://gss-data.org.uk/data/gss_data/climate-change/ons-energy-use-fossil-fuels-by-fuel-type-and-industry#dataset>)
+    (<http://gss-data.org.uk/data/gss_data/climate-change/met-office-annual-mean-temp-with-trends-anomaly#dataset>)
+    (<http://gss-data.org.uk/data/trade/hmrc-alcohol-bulletin/alcohol-bulletin.csv#dataset>)
+    (<http://gss-data.org.uk/data/trade/ons-foreign-direct-investment-involving-uk-companies/ons-foreign-direct-investment-involving-uk-companies.csv#dataset>)
+    (<http://gss-data.org.uk/data/climate-change/beis-final-uk-greenhouse-gas-emissions-national-statistics-1990-to-2020/final-uk-greenhouse-gas-emissions-national-statistics-1990-to-2020.csv#dataset>)
+    (<http://gss-data.org.uk/data/climate-change/beis-2020-uk-greenhouse-gas-emissions-final-figures-dataset-of-emissions-by-source/2020-uk-greenhouse-gas-emissions-final-figures-dataset-of-emissions-by-source.csv#dataset>)
+    (<http://gss-data.org.uk/data/climate-change/beis-2020-uk-greenhouse-gas-emissions-final-figures-dataset-of-emissions-by-end-user/2020-uk-greenhouse-gas-emissions-final-figures-dataset-of-emissions-by-end-user.csv#dataset>)
+    (<http://gss-data.org.uk/data/climate-change/beis-provisional-uk-greenhouse-gas-emissions-national-statistics-2021/provisional-uk-greenhouse-gas-emissions-national-statistics-2021.csv#dataset>)
+    (<http://gss-data.org.uk/data/climate-change/ons-public-opinions-and-social-trends-great-britain-impact-of-climate-change-by-2030-13-to-24-april-2022/impact-of-climate-change-by-2030.csv#dataset>)
+    (<http://gss-data.org.uk/data/trade/hmrc-regional-trade-statistics-interactive-analysis/rts-business-counts.csv#dataset>)
+    (<http://gss-data.org.uk/data/climate-change/ons-energy-use-total-1990-2020/energy-use-total-1990-2020.csv#dataset>)
+    (<http://gss-data.org.uk/data/climate-change/ons-energy-use-fossil-fuels-by-fuel-type-and-industry-1990-2020/energy-use-fossil-fuels-by-fuel-type-and-industry-1990-2020.csv#dataset>)
+    (<http://gss-data.org.uk/data/climate-change/ons-atmospheric-emissions-greenhouse-gases-by-industry-and-gas-1990-2020/atmospheric-emissions-greenhouse-gases-by-industry-and-gas-1990-2020.csv#dataset>)
+    (<http://gss-data.org.uk/data/climate-change/mhclg-table-eb1-domestic-energy-performance-certificates-for-existing-dwellings-by-energy-efficiency-rating/domestic-energy-performance-certificates-for-existing-dwellings-by-energy-efficiency-rating.csv#dataset>)
+    (<http://gss-data.org.uk/data/climate-change/mhclg-table-nb1-domestic-energy-performance-certificates-for-new-dwellings-by-energy-efficiency-rating/domestic-energy-performance-certificates-for-new-dwellings-by-energy-efficiency-rating.csv#dataset>)
+    (<http://gss-data.org.uk/data/climate-change/defra-carbon-footprint-summary-product-90-19/carbon-footprint-summary-product-90-19#dataset>)
+    (<http://gss-data.org.uk/data/climate-change/defra-carbon-footprint-summary-final-demand-90-19/carbon-footprint-summary-final-demand-90-19#dataset>)
+    (<http://gss-data.org.uk/data/climate-change/defra-carbon-footprint-summary-source-region-90-19/carbon-footprint-summary-source-region-90-19#dataset>)
+    (<http://gss-data.org.uk/data/trade/ons-trade-in-goods-all-countries-seasonally-adjusted-2021/trade-in-goods-all-countries-seasonally-adjusted-2021.csv#dataset>)
+    (<http://gss-data.org.uk/data/trade/ons-trade-in-goods-country-by-commodity-exports-and-imports-2021/trade-in-goods-country-by-commodity-exports-and-imports-2021.csv#dataset>)
+    (<http://gss-data.org.uk/data/vawg/ONS-Prevalence-of-sexual-assault-in-the-last-year-among-adults-aged-16-to-59-by-type-of-sexual-assault-and-sex/prevalence-of-sexual-assault-in-the-last-year-among-adults-aged-16-to-59-by-type-of-sexual-assault-and-sex.csv#dataset>)
+    (<http://gss-data.org.uk/data/vawg/ONS-Partner-Abuse-In-Detail/who-victim-had-told-personally-about-the-partner-abuse-experienced-in-the-last-12-months-by-sex-year.csv#dataset>)
+    (<http://gss-data.org.uk/data/vawg/ONS-Prevalence-of-Domestic-Abuse-in-the-Last-Year-Among-Adults-Aged-16-to-59-by-Type-of-Abuse-and-Sex/prevalence-of-domestic-abuse-in-the-last-year-among-adults-aged-16-to-59-by-type-of-abuse-and-sex.csv#dataset>)
+  }
+
+  ?dataSet a qb:DataSet.
+  ?obs a qb:Observation;
+	   qb:dataSet ?dataSet.
+}
+GROUP BY ?dataSet
+ORDER BY DESC(?numObs)
+# http://gss-data.org.uk/data/trade/ons-trade-in-goods-country-by-commodity-exports-and-imports-2021/trade-in-goods-country-by-commodity-exports-and-imports-2021.csv#dataset	4562250

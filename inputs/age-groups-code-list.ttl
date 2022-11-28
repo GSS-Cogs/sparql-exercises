@@ -1,0 +1,1903 @@
+<http://gss-data.org.uk/catalog/vocabularies>
+        <http://www.w3.org/ns/dcat#record>  <http://gss-data.org.uk/def/concept-scheme/age-groups/catalog-record> .
+
+<http://gss-data.org.uk/def/concept-scheme/age-groups>
+        <http://purl.org/dc/terms/title>  "Age Groups" ;
+        <http://www.w3.org/ns/prov#wasGeneratedBy>  <https://ci.ukstats.dev/job/GSS_data/job/Reference/job/ref_common/411/> ;
+        a       <http://publishmydata.com/pmdcat#ConceptScheme> ;
+        a       <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Age Groups" ;
+        <http://www.w3.org/2000/01/rdf-schema#seeAlso>  <http://gss-data.org.uk/catalog/vocabularies> ;
+        <http://www.w3.org/2000/01/rdf-schema#seeAlso>  <http://gss-data.org.uk/def/concept-scheme/age-groups/catalog-record> ;
+        <http://www.w3.org/2000/01/rdf-schema#seeAlso>  <http://gss-data.org.uk/def/concept-scheme/age-groups/dataset> ;
+        <http://www.w3.org/2004/02/skos/core#hasTopConcept>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/ns/prov#hadDerivation>  <http://publishmydata.com/graphs/drafter/draft/ec524970-010a-41fb-8aa6-11155faba815> .
+
+<http://gss-data.org.uk/def/concept-scheme/age-groups/catalog-record>
+        <http://purl.org/dc/terms/modified>  "2021-02-03T08:41:31.820623"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/title>  "Age Groups Catalog Record" ;
+        a       <http://www.w3.org/ns/dcat#CatalogRecord> ;
+        <http://purl.org/dc/terms/issued>  "2021-02-03T08:41:31.820623"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Age Groups Catalog Record" ;
+        <http://xmlns.com/foaf/0.1/primaryTopic>  <http://gss-data.org.uk/def/concept-scheme/age-groups/dataset> ;
+        <http://publishmydata.com/pmdcat#metadataGraph>  <http://gss-data.org.uk/def/concept-scheme/age-groups> .
+
+<http://gss-data.org.uk/def/concept-scheme/age-groups/dataset>
+        <http://purl.org/dc/terms/modified>  "2021-02-03T15:38:35.219364"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/title>  "Age Groups" ;
+        a       <http://publishmydata.com/pmdcat#Dataset> ;
+        a       <http://www.w3.org/ns/dcat#Dataset> ;
+        <http://purl.org/dc/terms/issued>  "2021-02-03T08:41:31.820623"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Age Groups" ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>  "Dataset representing the 'Age Groups' code list." ;
+        <http://publishmydata.com/pmdcat#graph>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://publishmydata.com/pmdcat#datasetContents>  <http://gss-data.org.uk/def/concept-scheme/age-groups> .
+
+<http://gss-data.org.uk/def/concept/age-groups/all>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "All ages" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "all" ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agq> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/ag1> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/ag2> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agr> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nisra5> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nrs> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/hoad> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/ag3> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/under-18> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/18-plus> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/under-75> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/under-40> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/18-75> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/40-64> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/16-plus> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/17-plus> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nhs> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nhs%2F0-17> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nhs%2F18-29> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nhs%2F30-39> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nhs%2F40-49> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nhs%2F50-59> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nhs%2F60-69> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nhs%2F70-79> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nhs%2F80-89> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nhs%2F90plus> ;
+        <http://www.w3.org/ns/ui#sortPriority>  1 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agq>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Quinary age groups" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agq" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agq%2Funder-1> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agq%2F1-4> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agq%2F0-4> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agq%2F5-9> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agq%2F10-14> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agq%2F15-19> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agq%2F20-24> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agq%2F25-29> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agq%2F30-34> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agq%2F35-39> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agq%2F40-44> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agq%2F45-49> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agq%2F50-54> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agq%2F55-59> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agq%2F60-64> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agq%2F65-69> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agq%2F70-74> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agq%2F75-79> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agq%2F80-84> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agq%2F85-plus> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agq%2F85-89> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agq%2F90-plus> ;
+        <http://www.w3.org/ns/ui#sortPriority>  2 .
+
+<http://gss-data.org.uk/def/concept/age-groups/ag1>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Alternative age groups 1" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "ag1" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/ag1%2F0-16> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/ag1%2F17-18> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/ag1%2F19-21> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/ag1%2F22-59> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/ag1%2F60-64> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/ag1%2F65-plus> ;
+        <http://www.w3.org/ns/ui#sortPriority>  23 .
+
+<http://gss-data.org.uk/def/concept/age-groups/ag2>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Alternative age groups 2" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "ag2" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/ag2%2F0-14> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/ag2%2F15-24> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/ag2%2F25-44> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/ag2%2F45-59> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/ag2%2F60-64> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/ag2%2F65-plus> ;
+        <http://www.w3.org/ns/ui#sortPriority>  30 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agr>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Age groups with gender-specific retirement ages" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agr" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agr%2Funder-15> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agr%2F15-24> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agr%2F25-44> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agr%2F45-59-or-64> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agr%2F60-or-65-and-over> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/agr%2F16-61-or-64> ;
+        <http://www.w3.org/ns/ui#sortPriority>  37 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nisra5>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "NISRA 5 year bands" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nisra5" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nisra5%2Funder-25> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nisra5%2F00-17> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nisra5%2F18-24> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nisra5%2F25-34> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nisra5%2F35-44> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nisra5%2F45-54> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nisra5%2F55-64> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nisra5%2F65-plus> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nisra5%2F65-74> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nisra5%2F75-plus> ;
+        <http://www.w3.org/ns/ui#sortPriority>  43 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Single Year of Age" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F0> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F1> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F2> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F3> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F4> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F5> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F6> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F7> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F8> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F9> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F10> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F11> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F12> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F13> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F14> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F15> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F16> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F17> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F18> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F19> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F20> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F21> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F22> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F23> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F24> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F25> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F26> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F27> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F28> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F29> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F30> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F31> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F32> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F33> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F34> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F35> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F36> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F37> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F38> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F39> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F40> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F41> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F42> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F43> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F44> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F45> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F46> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F47> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F48> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F49> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F50> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F51> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F52> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F53> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F54> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F55> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F56> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F57> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F58> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F59> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F60> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F61> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F62> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F63> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F64> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F65> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F66> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F67> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F68> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F69> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F70> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F71> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F72> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F73> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F74> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F75> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F76> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F77> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F78> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F79> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F80> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F81> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F82> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F83> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F84> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F85> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F86> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F87> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F88> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F89> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F90> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F91> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F92> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F93> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F94> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F95> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F96> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F97> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F98> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F99> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/year%2F100> ;
+        <http://www.w3.org/ns/ui#sortPriority>  51 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nrs>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "National Records Scotland Age Groups" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nrs" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nrs%2F0-15> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nrs%2F16-24> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nrs%2F25-34> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nrs%2F35-44> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nrs%2F45-54> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nrs%2F55-64> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nrs%2F65-74> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nrs%2F75-84> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/nrs%2F85-plus> ;
+        <http://www.w3.org/ns/ui#sortPriority>  153 .
+
+<http://gss-data.org.uk/def/concept/age-groups/hoad>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Home Office Asylum Applicants and Dependants Ages" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "hoad" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/hoad%2Funder-5> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/hoad%2F5-9> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/hoad%2F10-13> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/hoad%2F14-15> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/hoad%2F16-17> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/hoad%2F18-20> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/hoad%2F21-24> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/hoad%2F25-29> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/hoad%2F30-34> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/hoad%2F35-39> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/hoad%2F40-49> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/hoad%2F50-59> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/hoad%2F60-64> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/hoad%2F65-plus> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/hoad%2Funknown> ;
+        <http://www.w3.org/ns/ui#sortPriority>  163 .
+
+<http://gss-data.org.uk/def/concept/age-groups/ag3>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Alternative age groups 3" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "ag3" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/ag3%2F0-29> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/ag3%2F30-39> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/ag3%2F40-49> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>  <http://gss-data.org.uk/def/concept/age-groups/ag3%2F50-plus> ;
+        <http://www.w3.org/ns/ui#sortPriority>  179 .
+
+<http://gss-data.org.uk/def/concept/age-groups/under-18>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Under 18" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "under-18" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/ns/ui#sortPriority>  184 .
+
+<http://gss-data.org.uk/def/concept/age-groups/18-plus>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "18 and over" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "18-plus" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/ns/ui#sortPriority>  185 .
+
+<http://gss-data.org.uk/def/concept/age-groups/under-75>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Under 75" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "under-75" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/ns/ui#sortPriority>  186 .
+
+<http://gss-data.org.uk/def/concept/age-groups/under-40>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Under 40" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "under-40" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/ns/ui#sortPriority>  187 .
+
+<http://gss-data.org.uk/def/concept/age-groups/18-75>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "18-75" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "18-75" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/ns/ui#sortPriority>  188 .
+
+<http://gss-data.org.uk/def/concept/age-groups/40-64>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "40-64" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "40-64" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/ns/ui#sortPriority>  189 .
+
+<http://gss-data.org.uk/def/concept/age-groups/16-plus>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "16 and over" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "16-plus" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/ns/ui#sortPriority>  190 .
+
+<http://gss-data.org.uk/def/concept/age-groups/17-plus>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "17 and over" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "17-plus" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/ns/ui#sortPriority>  191 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nhs>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "NHS Coronavirus Shielded Patient List Summary Totals England" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nhs" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/ns/ui#sortPriority>  192 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agq%2Funder-1>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Under 1" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agq/under-1" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agq> .
+
+<http://gss-data.org.uk/def/concept/age-groups/agq%2F1-4>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "01-04" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agq/1-4" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agq> .
+
+<http://gss-data.org.uk/def/concept/age-groups/agq%2F0-4>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "0 - 4" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agq/0-4" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agq> ;
+        <http://www.w3.org/ns/ui#sortPriority>  3 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agq%2F5-9>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "05-09" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agq/5-9" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agq> ;
+        <http://www.w3.org/ns/ui#sortPriority>  4 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agq%2F10-14>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "10-14" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agq/10-14" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agq> ;
+        <http://www.w3.org/ns/ui#sortPriority>  5 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agq%2F15-19>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "15 - 19" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agq/15-19" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agq> ;
+        <http://www.w3.org/ns/ui#sortPriority>  6 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agq%2F20-24>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "20 - 24" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agq/20-24" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agq> ;
+        <http://www.w3.org/ns/ui#sortPriority>  7 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agq%2F25-29>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "25 - 29" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agq/25-29" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agq> ;
+        <http://www.w3.org/ns/ui#sortPriority>  8 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agq%2F30-34>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "30 - 34" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agq/30-34" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agq> ;
+        <http://www.w3.org/ns/ui#sortPriority>  9 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agq%2F35-39>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "35 - 39" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agq/35-39" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agq> ;
+        <http://www.w3.org/ns/ui#sortPriority>  10 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agq%2F40-44>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "40 - 44" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agq/40-44" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agq> ;
+        <http://www.w3.org/ns/ui#sortPriority>  11 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agq%2F45-49>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "45 - 49" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agq/45-49" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agq> ;
+        <http://www.w3.org/ns/ui#sortPriority>  12 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agq%2F50-54>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "50 - 54" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agq/50-54" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agq> ;
+        <http://www.w3.org/ns/ui#sortPriority>  13 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agq%2F55-59>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "55 - 59" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agq/55-59" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agq> ;
+        <http://www.w3.org/ns/ui#sortPriority>  14 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agq%2F60-64>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "60 - 64" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agq/60-64" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agq> ;
+        <http://www.w3.org/ns/ui#sortPriority>  15 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agq%2F65-69>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "65 - 69" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agq/65-69" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agq> ;
+        <http://www.w3.org/ns/ui#sortPriority>  16 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agq%2F70-74>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "70 - 74" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agq/70-74" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agq> ;
+        <http://www.w3.org/ns/ui#sortPriority>  17 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agq%2F75-79>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "75 - 79" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agq/75-79" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agq> ;
+        <http://www.w3.org/ns/ui#sortPriority>  18 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agq%2F80-84>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "80 - 84" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agq/80-84" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agq> ;
+        <http://www.w3.org/ns/ui#sortPriority>  19 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agq%2F85-plus>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "85 and over" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agq/85-plus" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agq> ;
+        <http://www.w3.org/ns/ui#sortPriority>  20 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agq%2F85-89>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "85 - 89" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agq/85-89" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agq> ;
+        <http://www.w3.org/ns/ui#sortPriority>  21 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agq%2F90-plus>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "90 and over" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agq/90-plus" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agq> ;
+        <http://www.w3.org/ns/ui#sortPriority>  22 .
+
+<http://gss-data.org.uk/def/concept/age-groups/ag1%2F0-16>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "0 - 16" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "ag1/0-16" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/ag1> ;
+        <http://www.w3.org/ns/ui#sortPriority>  24 .
+
+<http://gss-data.org.uk/def/concept/age-groups/ag1%2F17-18>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "17 - 18" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "ag1/17-18" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/ag1> ;
+        <http://www.w3.org/ns/ui#sortPriority>  25 .
+
+<http://gss-data.org.uk/def/concept/age-groups/ag1%2F19-21>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "19 - 21" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "ag1/19-21" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/ag1> ;
+        <http://www.w3.org/ns/ui#sortPriority>  26 .
+
+<http://gss-data.org.uk/def/concept/age-groups/ag1%2F22-59>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "22 - 59" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "ag1/22-59" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/ag1> ;
+        <http://www.w3.org/ns/ui#sortPriority>  27 .
+
+<http://gss-data.org.uk/def/concept/age-groups/ag1%2F60-64>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "60 - 64" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "ag1/60-64" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/ag1> ;
+        <http://www.w3.org/ns/ui#sortPriority>  28 .
+
+<http://gss-data.org.uk/def/concept/age-groups/ag1%2F65-plus>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "65 and over" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "ag1/65-plus" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/ag1> ;
+        <http://www.w3.org/ns/ui#sortPriority>  29 .
+
+<http://gss-data.org.uk/def/concept/age-groups/ag2%2F0-14>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "0 - 14" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "ag2/0-14" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/ag2> ;
+        <http://www.w3.org/ns/ui#sortPriority>  31 .
+
+<http://gss-data.org.uk/def/concept/age-groups/ag2%2F15-24>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "15 - 24" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "ag2/15-24" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/ag2> ;
+        <http://www.w3.org/ns/ui#sortPriority>  32 .
+
+<http://gss-data.org.uk/def/concept/age-groups/ag2%2F25-44>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "25 - 44" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "ag2/25-44" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/ag2> ;
+        <http://www.w3.org/ns/ui#sortPriority>  33 .
+
+<http://gss-data.org.uk/def/concept/age-groups/ag2%2F45-59>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "45 - 59" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "ag2/45-59" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/ag2> ;
+        <http://www.w3.org/ns/ui#sortPriority>  34 .
+
+<http://gss-data.org.uk/def/concept/age-groups/ag2%2F60-64>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "60 - 64" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "ag2/60-64" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/ag2> ;
+        <http://www.w3.org/ns/ui#sortPriority>  35 .
+
+<http://gss-data.org.uk/def/concept/age-groups/ag2%2F65-plus>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "65 and over" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "ag2/65-plus" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/ag2> ;
+        <http://www.w3.org/ns/ui#sortPriority>  36 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agr%2Funder-15>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Under 15" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agr/under-15" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agr> ;
+        <http://www.w3.org/ns/ui#sortPriority>  38 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agr%2F15-24>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "15-24" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agr/15-24" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agr> ;
+        <http://www.w3.org/ns/ui#sortPriority>  39 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agr%2F25-44>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "25-44" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agr/25-44" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agr> ;
+        <http://www.w3.org/ns/ui#sortPriority>  40 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agr%2F45-59-or-64>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "45-59/64" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agr/45-59-or-64" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agr> ;
+        <http://www.w3.org/ns/ui#sortPriority>  41 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agr%2F60-or-65-and-over>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "60/65 and over" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agr/60-or-65-and-over" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agr> ;
+        <http://www.w3.org/ns/ui#sortPriority>  42 .
+
+<http://gss-data.org.uk/def/concept/age-groups/agr%2F16-61-or-64>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "16-61/64" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "agr/16-61-or-64" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/agr> .
+
+<http://gss-data.org.uk/def/concept/age-groups/nisra5%2Funder-25>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Under 25" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nisra5/under-25" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/nisra5> .
+
+<http://gss-data.org.uk/def/concept/age-groups/nisra5%2F00-17>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "00-17" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nisra5/00-17" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/nisra5> ;
+        <http://www.w3.org/ns/ui#sortPriority>  44 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nisra5%2F18-24>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "18-24" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nisra5/18-24" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/nisra5> ;
+        <http://www.w3.org/ns/ui#sortPriority>  45 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nisra5%2F25-34>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "25-34" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nisra5/25-34" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/nisra5> ;
+        <http://www.w3.org/ns/ui#sortPriority>  46 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nisra5%2F35-44>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "35-44" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nisra5/35-44" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/nisra5> ;
+        <http://www.w3.org/ns/ui#sortPriority>  47 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nisra5%2F45-54>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "45-54" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nisra5/45-54" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/nisra5> ;
+        <http://www.w3.org/ns/ui#sortPriority>  48 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nisra5%2F55-64>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "55-64" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nisra5/55-64" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/nisra5> ;
+        <http://www.w3.org/ns/ui#sortPriority>  49 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nisra5%2F65-plus>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "65+" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nisra5/65-plus" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/nisra5> ;
+        <http://www.w3.org/ns/ui#sortPriority>  50 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nisra5%2F65-74>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "65-74" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nisra5/65-74" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/nisra5> .
+
+<http://gss-data.org.uk/def/concept/age-groups/nisra5%2F75-plus>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "75 and over" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nisra5/75-plus" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/nisra5> .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F0>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "0" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/0" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  52 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F1>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "1" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/1" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  53 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F2>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "2" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/2" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  54 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F3>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "3" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/3" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  55 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F4>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "4" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/4" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  56 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F5>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "5" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/5" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  57 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F6>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "6" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/6" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  58 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F7>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "7" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/7" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  59 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F8>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "8" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/8" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  60 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F9>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "9" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/9" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  61 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F10>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "10" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/10" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  62 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F11>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "11" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/11" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  63 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F12>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "12" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/12" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  64 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F13>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "13" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/13" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  65 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F14>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "14" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/14" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  66 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F15>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "15" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/15" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  67 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F16>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "16" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/16" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  68 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F17>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "17" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/17" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  69 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F18>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "18" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/18" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  70 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F19>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "19" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/19" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  71 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F20>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "20" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/20" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  72 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F21>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "21" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/21" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  73 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F22>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "22" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/22" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  74 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F23>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "23" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/23" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  75 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F24>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "24" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/24" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  76 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F25>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "25" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/25" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  77 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F26>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "26" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/26" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  78 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F27>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "27" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/27" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  79 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F28>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "28" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/28" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  80 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F29>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "29" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/29" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  81 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F30>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "30" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/30" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  82 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F31>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "31" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/31" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  83 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F32>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "32" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/32" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  84 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F33>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "33" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/33" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  85 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F34>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "34" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/34" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  86 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F35>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "35" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/35" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  87 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F36>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "36" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/36" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  88 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F37>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "37" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/37" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  89 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F38>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "38" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/38" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  90 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F39>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "39" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/39" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  91 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F40>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "40" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/40" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  92 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F41>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "41" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/41" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  93 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F42>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "42" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/42" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  94 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F43>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "43" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/43" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  95 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F44>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "44" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/44" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  96 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F45>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "45" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/45" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  97 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F46>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "46" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/46" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  98 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F47>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "47" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/47" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  99 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F48>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "48" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/48" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  100 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F49>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "49" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/49" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  101 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F50>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "50" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/50" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  102 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F51>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "51" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/51" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  103 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F52>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "52" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/52" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  104 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F53>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "53" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/53" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  105 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F54>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "54" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/54" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  106 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F55>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "55" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/55" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  107 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F56>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "56" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/56" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  108 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F57>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "57" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/57" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  109 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F58>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "58" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/58" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  110 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F59>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "59" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/59" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  111 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F60>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "60" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/60" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  112 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F61>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "61" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/61" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  113 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F62>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "62" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/62" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  114 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F63>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "63" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/63" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  115 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F64>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "64" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/64" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  116 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F65>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "65" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/65" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  117 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F66>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "66" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/66" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  118 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F67>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "67" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/67" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  119 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F68>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "68" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/68" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  120 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F69>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "69" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/69" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  121 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F70>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "70" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/70" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  122 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F71>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "71" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/71" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  123 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F72>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "72" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/72" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  124 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F73>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "73" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/73" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  125 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F74>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "74" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/74" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  126 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F75>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "75" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/75" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  127 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F76>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "76" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/76" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  128 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F77>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "77" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/77" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  129 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F78>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "78" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/78" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  130 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F79>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "79" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/79" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  131 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F80>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "80" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/80" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  132 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F81>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "81" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/81" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  133 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F82>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "82" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/82" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  134 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F83>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "83" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/83" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  135 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F84>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "84" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/84" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  136 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F85>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "85" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/85" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  137 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F86>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "86" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/86" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  138 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F87>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "87" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/87" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  139 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F88>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "88" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/88" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  140 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F89>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "89" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/89" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  141 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F90>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "90" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/90" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  142 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F91>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "91" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/91" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  143 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F92>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "92" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/92" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  144 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F93>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "93" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/93" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  145 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F94>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "94" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/94" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  146 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F95>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "95" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/95" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  147 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F96>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "96" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/96" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  148 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F97>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "97" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/97" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  149 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F98>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "98" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/98" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  150 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F99>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "99" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/99" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  151 .
+
+<http://gss-data.org.uk/def/concept/age-groups/year%2F100>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "100" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "year/100" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/year> ;
+        <http://www.w3.org/ns/ui#sortPriority>  152 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nrs%2F0-15>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "0-15" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nrs/0-15" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/nrs> ;
+        <http://www.w3.org/ns/ui#sortPriority>  154 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nrs%2F16-24>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "16-24" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nrs/16-24" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/nrs> ;
+        <http://www.w3.org/ns/ui#sortPriority>  155 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nrs%2F25-34>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "25-34" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nrs/25-34" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/nrs> ;
+        <http://www.w3.org/ns/ui#sortPriority>  156 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nrs%2F35-44>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "35-44" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nrs/35-44" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/nrs> ;
+        <http://www.w3.org/ns/ui#sortPriority>  157 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nrs%2F45-54>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "45-54" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nrs/45-54" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/nrs> ;
+        <http://www.w3.org/ns/ui#sortPriority>  158 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nrs%2F55-64>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "55-64" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nrs/55-64" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/nrs> ;
+        <http://www.w3.org/ns/ui#sortPriority>  159 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nrs%2F65-74>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "65-74" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nrs/65-74" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/nrs> ;
+        <http://www.w3.org/ns/ui#sortPriority>  160 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nrs%2F75-84>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "75-84" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nrs/75-84" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/nrs> ;
+        <http://www.w3.org/ns/ui#sortPriority>  161 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nrs%2F85-plus>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "85+" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nrs/85-plus" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/nrs> ;
+        <http://www.w3.org/ns/ui#sortPriority>  162 .
+
+<http://gss-data.org.uk/def/concept/age-groups/hoad%2Funder-5>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Under 5" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "hoad/under-5" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/hoad> ;
+        <http://www.w3.org/ns/ui#sortPriority>  164 .
+
+<http://gss-data.org.uk/def/concept/age-groups/hoad%2F5-9>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "05-09" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "hoad/5-9" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/hoad> ;
+        <http://www.w3.org/ns/ui#sortPriority>  165 .
+
+<http://gss-data.org.uk/def/concept/age-groups/hoad%2F10-13>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "10-13" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "hoad/10-13" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/hoad> ;
+        <http://www.w3.org/ns/ui#sortPriority>  166 .
+
+<http://gss-data.org.uk/def/concept/age-groups/hoad%2F14-15>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "14-15" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "hoad/14-15" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/hoad> ;
+        <http://www.w3.org/ns/ui#sortPriority>  167 .
+
+<http://gss-data.org.uk/def/concept/age-groups/hoad%2F16-17>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "16-17" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "hoad/16-17" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/hoad> ;
+        <http://www.w3.org/ns/ui#sortPriority>  168 .
+
+<http://gss-data.org.uk/def/concept/age-groups/hoad%2F18-20>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "18-20" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "hoad/18-20" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/hoad> ;
+        <http://www.w3.org/ns/ui#sortPriority>  169 .
+
+<http://gss-data.org.uk/def/concept/age-groups/hoad%2F21-24>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "21-24" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "hoad/21-24" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/hoad> ;
+        <http://www.w3.org/ns/ui#sortPriority>  170 .
+
+<http://gss-data.org.uk/def/concept/age-groups/hoad%2F25-29>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "25-29" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "hoad/25-29" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/hoad> ;
+        <http://www.w3.org/ns/ui#sortPriority>  171 .
+
+<http://gss-data.org.uk/def/concept/age-groups/hoad%2F30-34>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "30-34" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "hoad/30-34" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/hoad> ;
+        <http://www.w3.org/ns/ui#sortPriority>  172 .
+
+<http://gss-data.org.uk/def/concept/age-groups/hoad%2F35-39>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "35-39" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "hoad/35-39" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/hoad> ;
+        <http://www.w3.org/ns/ui#sortPriority>  173 .
+
+<http://gss-data.org.uk/def/concept/age-groups/hoad%2F40-49>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "40-49" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "hoad/40-49" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/hoad> ;
+        <http://www.w3.org/ns/ui#sortPriority>  174 .
+
+<http://gss-data.org.uk/def/concept/age-groups/hoad%2F50-59>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "50-59" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "hoad/50-59" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/hoad> ;
+        <http://www.w3.org/ns/ui#sortPriority>  175 .
+
+<http://gss-data.org.uk/def/concept/age-groups/hoad%2F60-64>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "60-64" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "hoad/60-64" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/hoad> ;
+        <http://www.w3.org/ns/ui#sortPriority>  176 .
+
+<http://gss-data.org.uk/def/concept/age-groups/hoad%2F65-plus>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "65+" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "hoad/65-plus" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/hoad> ;
+        <http://www.w3.org/ns/ui#sortPriority>  177 .
+
+<http://gss-data.org.uk/def/concept/age-groups/hoad%2Funknown>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Unknown" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "hoad/unknown" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/hoad> ;
+        <http://www.w3.org/ns/ui#sortPriority>  178 .
+
+<http://gss-data.org.uk/def/concept/age-groups/ag3%2F0-29>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "0 - 29" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "ag3/0-29" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/ag3> ;
+        <http://www.w3.org/ns/ui#sortPriority>  180 .
+
+<http://gss-data.org.uk/def/concept/age-groups/ag3%2F30-39>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "30 - 39" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "ag3/30-39" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/ag3> ;
+        <http://www.w3.org/ns/ui#sortPriority>  181 .
+
+<http://gss-data.org.uk/def/concept/age-groups/ag3%2F40-49>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "40 - 49" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "ag3/40-49" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/ag3> ;
+        <http://www.w3.org/ns/ui#sortPriority>  182 .
+
+<http://gss-data.org.uk/def/concept/age-groups/ag3%2F50-plus>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "50+" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "ag3/50-plus" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/ag3> ;
+        <http://www.w3.org/ns/ui#sortPriority>  183 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nhs%2F0-17>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "0-17" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nhs/0-17" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/ns/ui#sortPriority>  193 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nhs%2F18-29>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "18-29" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nhs/18-29" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/ns/ui#sortPriority>  194 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nhs%2F30-39>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "30-39" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nhs/30-39" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/ns/ui#sortPriority>  195 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nhs%2F40-49>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "40-49" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nhs/40-49" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/ns/ui#sortPriority>  196 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nhs%2F50-59>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "50-59" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nhs/50-59" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/ns/ui#sortPriority>  197 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nhs%2F60-69>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "60-69" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nhs/60-69" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/ns/ui#sortPriority>  198 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nhs%2F70-79>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "70-79" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nhs/70-79" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/ns/ui#sortPriority>  199 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nhs%2F80-89>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "80-89" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nhs/80-89" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/ns/ui#sortPriority>  200 .
+
+<http://gss-data.org.uk/def/concept/age-groups/nhs%2F90plus>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "90+" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://gss-data.org.uk/def/concept-scheme/age-groups> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "nhs/90plus" ;
+        <http://www.w3.org/2004/02/skos/core#broader>  <http://gss-data.org.uk/def/concept/age-groups/all> ;
+        <http://www.w3.org/ns/ui#sortPriority>  201 .
+
+<https://ci.ukstats.dev/job/GSS_data/job/Reference/job/ref_common/>
+        a       <http://www.w3.org/ns/prov#Agent> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "GSS_data » Reference » ref_common" ;
+        <http://gss-data.org.uk/def/gdp#uniqueID>  "Njk5YTc4OWQtMmY2MC00MzliLWJkMT" .
+
+<http://publishmydata.com/graphs/drafter/draft/ec524970-010a-41fb-8aa6-11155faba815>
+        <http://www.w3.org/ns/prov#hadDerivation>  <http://gss-data.org.uk/def/concept-scheme/age-groups> .
+
+<https://ci.ukstats.dev/job/GSS_data/job/Reference/job/ref_common/411/>
+        a       <http://www.w3.org/ns/prov#Activity> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "GSS_data » Reference » ref_common #411" ;
+        <http://www.w3.org/ns/prov#wasAssociatedWith>  <https://ci.ukstats.dev/job/GSS_data/job/Reference/job/ref_common/> ;
+        <http://www.w3.org/ns/prov#generatedAtTime>  "2022-10-10T11:16:00.639Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .

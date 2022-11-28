@@ -1,0 +1,38 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX void: <http://rdfs.org/ns/void#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT *
+WHERE { 
+    ?concept a skos:Concept.
+
+    OPTIONAL {
+        BIND("Bottom" as ?position)
+        FILTER NOT EXISTS {
+            ?concept skos:narrower [].
+        }
+    } 
+    
+    OPTIONAL {
+        BIND("Middle" as ?position)
+        FILTER EXISTS {
+            ?concept skos:broader [];
+                     skos:narrower [].
+        }
+    } 
+    
+    OPTIONAL {
+        BIND("Top" as ?position)
+        FILTER NOT EXISTS {
+            ?concept skos:broader [].
+        }
+    }
+
+    FILTER(bound(?position)). # Not necessary for this dataset but strictly should be there.
+}
