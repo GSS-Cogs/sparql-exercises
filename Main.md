@@ -70,7 +70,7 @@ See [here](https://jena.apache.org/documentation/io/#formats) for supported inpu
 
 The intent of this exercise is to primarily make sure you can run basic SPARQL queries using the [Apache Jena Command Line Tools](#apache-jena---command-line-tools) to investigate the contents of a file containing RDF.
 
-| Relevant vocabularies                                         |
+| Relevant resources                                            |
 |---------------------------------------------------------------|
 | [DCATv2](https://www.w3.org/TR/vocab-dcat-2/)                 |
 | [SKOS](https://www.w3.org/TR/2009/NOTE-skos-primer-20090818/) |
@@ -113,13 +113,12 @@ TODO
 
 ## Exercise 2 - Filtering and Joining
 
-| Relevant vocabularies                                         |
-|---------------------------------------------------------------|
-| [SKOS](https://www.w3.org/TR/2009/NOTE-skos-primer-20090818/) |
+| Relevant resources                                                                           |
+|----------------------------------------------------------------------------------------------|
+| [SKOS](https://www.w3.org/TR/2009/NOTE-skos-primer-20090818/)                                |
+| [Confluence - SKOS Code List Diagrams](https://confluence.ons.gov.uk/display/PHEM/Codelists) |
 
 > ![The basic skos relationships that we use.](./skos.png)
->
-> For more diagrams explaining the SKOS vocabulary, see the [Codelists section on confluence](https://confluence.ons.gov.uk/display/PHEM/Codelists).
 
 Given the code list data inside the [age-groups-code-list.ttl](./inputs/age-groups-code-list.ttl) file:
 
@@ -157,7 +156,7 @@ COUNT, SUM, MIN, MAX, AVG, GROUP_CONCAT, and SAMPLE.
 
 ## Exercise 3
 
-| Relevant vocabularies                                         |
+| Relevant resources                                            |
 |---------------------------------------------------------------|
 | [SKOS](https://www.w3.org/TR/2009/NOTE-skos-primer-20090818/) |
 
@@ -210,7 +209,7 @@ Which returns the following result:
 
 ## Exercise 4
 
-| Relevant vocabularies                                   |
+| Relevant resoureces                                     |
 |---------------------------------------------------------|
 | [RDF Data Cube](https://www.w3.org/TR/vocab-data-cube/) |
 
@@ -222,7 +221,19 @@ For the remainder of this exercise, you should make sure that all of your triple
 
 Count the number of [qb:Observation](http://purl.org/linked-data/cube#Observation)s in the data set.
 
-TODO: DO MORE QUERIES FOR EXERCISE 4!!!
+### 4.b - Filtering data
+
+We're going to do some aggregation, so we need to remove some pre-aggregated values from the data to avoid double counting.
+
+Write a query to select all observed values which do not have the [mode](http://gss-data.org.uk/data/gss_data/trade/ons-exports-of-services-by-country-by-modes-of-supply#dimension/mode) of [`Total of Remote Trade and Consumption Abroad and Presence of Natural Persons (modes 1 2 4)`](https://beta.gss-data.org.uk/resource?uri=http%3A%2F%2Fgss-data.org.uk%2Fdata%2Fgss_data%2Ftrade%2Fons-exports-of-services-by-country-by-modes-of-supply%23concept%2Fmode%2Ftotal-modes-1-2-and-4).
+
+The [sameTerm filter function](https://www.w3.org/TR/sparql11-query/#func-sameTerm) may be helpful here.
+
+### 4.c - Aggregating data
+
+Extend the query you wrote in [4.b](#4b---filtering-data) so that shows the aggregate sum of trade broken down by each [country](http://gss-data.org.uk/data/gss_data/trade/ons-exports-of-services-by-country-by-modes-of-supply#dimension/country) and the [trade flow direction](http://gss-data.org.uk/def/trade/property/dimension/flow-directions) (imports/exports).
+
+Compare your values against the values we exluded from our query in 4.b; are there any differences?
 
 ## `VALUES`
 
